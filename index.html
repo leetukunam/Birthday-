@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Floating particles background -->
+        <div class="particles"></div>
+
+        <!-- Main content -->
+        <main class="content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="streamers">
+                    <span class="streamer streamer-1">🎊</span>
+                    <span class="streamer streamer-2">🎊</span>
+                    <span class="streamer streamer-3">🎊</span>
+                </div>
+
+                <div class="balloons">
+                    <span class="balloon balloon-1">🎈</span>
+                    <span class="balloon balloon-2">🎈</span>
+                    <span class="balloon balloon-3">🎈</span>
+                    <span class="balloon balloon-4">🎈</span>
+                    <span class="balloon balloon-5">🎈</span>
+                </div>
+
+                <div class="stars-top">
+                    <span class="star">⭐</span>
+                    <span class="star">⭐</span>
+                    <span class="star">⭐</span>
+                </div>
+
+                <h1 class="title">Happy Birthday Leetu Bangaram!</h1>
+                <p class="subtitle">To someone special 💕</p>
+
+                <div class="cake-emoji">🎂</div>
+
+                <div class="stars-bottom">
+                    <span class="star">⭐</span>
+                    <span class="star">⭐</span>
+                    <span class="star">⭐</span>
+                </div>
+            </section>
+
+            <!-- Message Section -->
+            <section class="message-section">
+                <div class="message-card">
+                    <h2>A Special Day for my everything</h2>
+                    <p>
+                        Another year older, but no less amazing. Today is all about celebrating YOU
+                        and everything that makes you wonderful. You deserve all the happiness in the world.
+                        You are the most amazing person I know, and I am so grateful to have you in my life. 
+                        May this year bring you endless joy, love, and success. Happy Birthday, Leetu Bangaram!
+                    </p>
+                </div>
+            </section>
+
+            <!-- Surprises Section -->
+            <section class="gallery-section">
+                <h2>3 Surprises for My World</h2>
+                <div class="gallery">
+                    <div class="gallery-item-simple" onclick="openEnvelope()">
+                        <div class="gallery-placeholder">💌</div>
+                        <p>Surprise 1</p>
+                    </div>
+                    <div class="gallery-item-simple" onclick="showPhoto()">
+                        <div class="gallery-placeholder">📸</div>
+                        <p>Surprise 2</p>
+                    </div>
+                    <div class="gallery-item-simple" onclick="showGif()">
+                        <div class="gallery-placeholder">💝</div>
+                        <p>Surprise 3</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Countdown Section -->
+            <section class="countdown-section">
+                <h2>Today is YOUR Day!</h2>
+                <div class="celebration-text">
+                    <span class="spark">✨</span>
+                    <span>Make it unforgettable</span>
+                    <span class="spark">✨</span>
+                </div>
+            </section>
+
+            <!-- Photo Modal -->
+            <div id="photoModal" class="photo-modal">
+                <div class="photo-modal-content">
+                    <span class="close" onclick="closePhoto()">&times;</span>
+                    <img src="Photo.JPG" alt="Our first picture together" class="modal-photo">
+                    <p class="photo-caption">Our first picture together</p>
+                    <p class="photo-message">This picture will be in my heart forever and cherished.</p>
+                </div>
+            </div>
+
+            <!-- GIF Modal -->
+            <div id="gifModal" class="gif-modal">
+                <div class="gif-modal-content">
+                    <span class="close" onclick="closeGif()">&times;</span>
+                    <img src="gorilla_party_pink.gif" alt="Party animation" class="modal-gif">
+                    <p class="gif-message">Let's celebrate you today! You deserve all the joy in the world 💕</p>
+                </div>
+            </div>
+
+            <!-- Envelope Modal -->
+            <div id="envelopeModal" class="envelope-modal">
+                <div class="envelope-modal-content">
+                    <span class="close" onclick="closeEnvelope()">&times;</span>
+                    <div class="envelope-container">
+                        <div class="envelope">
+                            <div class="envelope-flap"></div>
+                            <div class="envelope-body">
+                                <div class="letter">
+                                    <div class="letter-content" id="letterText">
+                                        <p><strong>Dear Queen Leetu,</strong></p>
+                                        <p>Happy birthday my love. You've grown since the first time I met you. 
+                                            You've become so mature now. I'm so proud of you ra. You are amazing, there's not a single fault about you. 
+                                            You've become so beautiful, you make my heart stop and me go into a trance every time I see you. 
+                                            You're so stunning that everytime I see you I become speechless for a bit. 
+                                            Let me tell you how proud I am of you. You have such a smart brain, genuinely I wish I was as smart as you. 
+                                            You are passing all your classes with flying colors and you did amazing in deca. 
+                                            If it wasn't for your judge you would definitely be going to ICDC. 
+                                            Ever since I met you you've grown so much into an amazing young woman. You are the kindest person I ever met. 
+                                            You always want everyone to feel included. You put aside your own pain to make others feel happy and forget about their pain. 
+                                            You take care of everyone to the best of your abilities and never fail. 
+                                            You always get your work done without bothering anyone. You're able to make better decisions now and handle the consequences way better than anyone I knew at that age. You are amazing. 
+                                            I know being the eldest daughter has a lot of responsibilities, and you are fulfilling them without even breaking a sweat. Your parents couldn't have asked for a better daughter and I couldn't have asked for a better wife. 
+                                            16 years ago from today your mom didn't know that she gave birth to my world. I am forever in her debt for doing so. I love you so much bangaram, you're my heart and soul. 
+                                            I promise that I will take care of you and always keep you happy. Puvvulo pettukoni chuskuntane. I will always be here with you, I will never leave you. 
+                                            I am here by your side holding your hand. I will support you no matter what. We'll face everything together. I'm sorry that I'm not next to you right now cuddling with you and kissing you. 
+                                            I promise I will be one day and that after that day I will never leave your side. Today is your day, live it like you will never forget it in 100 years. 
+                                            I am so proud of the young lady you have become and so proud of the women you will be. Enjoy your special day baby girl. Happy 16th birthday.</p>
+                                        <p><strong>Yours,<br>King Sree Krishna</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Confetti animation trigger -->
+            <div id="confetti-container"></div>
+        </main>
+
+        <!-- Floating hearts -->
+        <div class="hearts">
+            <span class="heart">💖</span>
+            <span class="heart">💖</span>
+            <span class="heart">💖</span>
+            <span class="heart">💖</span>
+            <span class="heart">💖</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
